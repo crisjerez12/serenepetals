@@ -3,33 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Tailwind starter</title>
+    <title>Gelie's Coffee Shop | Services</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
   </head>
   <body>
-    <header class="text-gray-500">
+    <header class="bg-orange-50 shadow-sm">
       <div class="container mx-auto flex justify-between p-5 items-center">
         <div>
           <a
             href="index.html"
-            class="flex font-medium items-center text-green-950"
+            class="flex font-medium items-center text-gray-900"
           >
-            <span class="ml-3 text-xl">TemplateOne</span>
+            <img src="img/logo.png" class="w-56" />
           </a>
         </div>
 
         <nav
-          class="hidden md:ml-4 md:py-1 md:pl-4 md:border-gray-400 md:flex flex-wrap items-center text-base justify-center"
+          class="hidden md:ml-4 md:py-1 md:pl-4 md:border-slate-400 md:flex flex-wrap items-center text-base justify-center"
         >
-          <a href="services.html" class="mr-5 hover:text-gray-900">Services</a>
-          <a href="products.html" class="mr-5 hover:text-gray-900">Products</a>
-          <a href="teams.html" class="mr-5 hover:text-gray-900">Teams</a>
-          <a href="contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+          <a href="services.html" class="mr-5 hover:text-slate-900">Services</a>
+          <a href="products.html" class="mr-5 hover:text-slate-900">Products</a>
+          <a href="teams.html" class="mr-5 hover:text-slate-900">Teams</a>
+          <a href="contact.html" class="mr-5 hover:text-slate-900">Contact</a>
         </nav>
-        <button class="block md:hidden hover:bg-gray-300 rounded-xl group z-40">
-          <div class="w-5 my-[3px] h-[3px] bg-gray-800 mb-[2px]"></div>
-          <div class="w-5 my-[3px] h-[3px] bg-gray-800 mb-[2px]"></div>
-          <div class="w-5 my-[3px] h-[3px] bg-gray-800"></div>
+        <button
+          class="z-40 block md:hidden hover:bg-slate-300 rounded-xl group"
+        >
+          <div class="w-5 my-[3px] h-[3px] bg-slate-800 mb-[2px]"></div>
+          <div class="w-5 my-[3px] h-[3px] bg-slate-800 mb-[2px]"></div>
+          <div class="w-5 my-[3px] h-[3px] bg-slate-800"></div>
           <div
             class="absolute top-0 -right-full opacity-0 h-screen w-[60%] border bg-gray-300 group-focus:right-0 group-focus:opacity-100 transition-all ease-in duration-300"
           >
@@ -60,156 +63,153 @@
       </div>
     </header>
 
-    <section class="text-gray-600 body-font">
-      <div class="text-center w-full">
-        <div class="text-xl md:text-3xl font-medium">Our Products</div>
-        <div class="text-sm mx-2 md:text-xl text-stone-500">
-          We Offer the best products in Town
+    <section class="text-slate-900 body-font pt-10 px-5">
+      <div class="text-center w-full bg-orange-50 p-5">
+        <div class="text-xl md:text-3xl font-medium">
+          Discover Perfection in Every Sip
+        </div>
+        <div class="text-sm mx-2 md:text-xl text-slate-700">
+          Explore Gelie's Coffee Shop's exquisite range of premium blends,
+          sourced globally and roasted to perfection. Elevate your coffee
+          experience with our curated selection of exceptional and flavorful
+          products.
         </div>
       </div>
 
       <div class="container px-5 pb-24 pt-10 mx-auto">
-        <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <div class="flex flex-wrap -m-4 space-x-4 space-y-4 justify-center">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/420x260"
+                src="img/coffee1.jpg"
               />
             </a>
-            <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
+            <div>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The Catalyzer
+                Velvet Sunrise Blend
               </h2>
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/421x261"
+                src="img/coffee2.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Shooting Stars
+                Midnight Euphoria Espresso
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/422x262"
+                src="img/coffee3.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Neptune
+                Honeyed Hazelnut Harmony
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/423x263"
+                src="img/coffee4.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The 400 Blows
+                Mystic Mocha Fusion
               </h2>
               <p class="mt-1">$18.40</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/424x264"
+                src="img/coffee5.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The Catalyzer
+                Citrus Zest Infusion
               </h2>
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/425x265"
+                src="img/coffee6.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Shooting Stars
+                Caramel Serenity Delight
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/427x267"
+                src="img/coffee7.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Neptune
+                Emerald Isle Emerald Roast
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="lg:w-1/4 md:w-1/2 p-4 w-full bg-orange-50 shadow-sm rounded-lg"
+          >
             <a class="block relative h-48 rounded overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/428x268"
+                src="img/coffee8.jpg"
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The 400 Blows
+                Spiced Maple Dream
               </h2>
               <p class="mt-1">$18.40</p>
             </div>
@@ -217,39 +217,24 @@
         </div>
       </div>
     </section>
-    <footer class="text-gray-600 body-font">
+    <footer class="text-slate-600 body-font bg-orange-50">
       <div
         class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
       >
         <a
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
-          </svg>
-          <span class="ml-3 text-xl">TemplateOne</span>
+          <span class="ml-3 text-xl">Gellie's Coffee Shop</span>
         </a>
         <p
-          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+          class="text-sm text-slate-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
         >
-          © 2023 TemplateOne —
+          © 2023 Ariser —
           <a
-            href="https://twitter.com/knyttneve"
-            class="text-gray-600 ml-1"
+            class="text-slate-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
-            >@creator</a
+            >@templateCreator</a
           >
         </p>
         <span
